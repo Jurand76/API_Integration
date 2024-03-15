@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[DatabaseSync]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[Date] DATETIME NOT NULL,
+	[ItemsChanged] INT NOT NULL
+)
